@@ -13,7 +13,7 @@
       "diarization": true,
       "temperature": 0,
       "align_output": false,
-      "huggingface_access_token": "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",
+      "huggingface_access_token": "",
       "language_detection_min_prob": 0,
       "language_detection_max_tries": 5
     },
