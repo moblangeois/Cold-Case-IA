@@ -45,17 +45,6 @@ Cold-Case-IA/
 git clone https://github.com/moblangeois/Cold-Case-IA.git
 ```
 
-2. Installer les dépendances :
-```bash
-pip install -r requirements.txt
-```
-
-3. Configurer les clés API :
-```python
-OPENAI_API_KEY="votre-clé-openai"
-NOMIC_API_KEY="votre-clé-nomic"
-```
-
 ## 💻 Utilisation
 
 1. Collecte des données :
@@ -74,22 +63,11 @@ python nettoyage_fichiers_scraping.py
 python create_atlas.py
 ```
 
-## 🔍 Accès à la démonstration
-
-1. S'inscrire sur [encycloscope.msh.uca.fr](https://encycloscope.msh.uca.fr)
-2. Contacter l'administrateur pour obtenir les droits d'accès
-3. Utiliser l'interface avec parcimonie (coût par requête)
-
 ## ⚠️ Note importante
 
-Ce projet est une démonstration technique. L'utilisation d'IA dans le contexte d'enquêtes criminelles soulève des questions éthiques et légales importantes. Consultez toujours les autorités compétentes.
+Ce projet est une démonstration technique. L'implémentation dans le fichier `app.py` n'est pas présente en raison d'une protection du droit d'auteur.
+De plus, l'utilisation de l'IA dans le contexte d'enquêtes criminelles soulève des questions éthiques et légales importantes. Consultez toujours les autorités compétentes.
 
 ## 📄 Licence
 
 MIT License
-
-## 👥 Contact
-
-Morgan Blangeois  
-Doctorant - Université Clermont Auvergne  
-morgan.blangeois@uca.fr
