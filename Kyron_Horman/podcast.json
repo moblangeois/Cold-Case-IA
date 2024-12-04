@@ -1,0 +1,1308 @@
+{
+    "completed_at": "2024-12-04T14:42:29.183615Z",
+    "created_at": "2024-12-04T14:41:07.915000Z",
+    "data_removed": false,
+    "error": null,
+    "id": "0hmf9vrz9drj40ckj8f836ch48",
+    "input": {
+      "debug": false,
+      "vad_onset": 0.5,
+      "audio_file": "https://replicate.delivery/pbxt/M5O6uDyJ65t52CwY1FdgPqwqLlVVDF3WT1EVUKHKbk3u7nDy/KyronHorman.mp3",
+      "batch_size": 64,
+      "vad_offset": 0.363,
+      "diarization": true,
+      "temperature": 0,
+      "align_output": false,
+      "huggingface_access_token": "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",
+      "language_detection_min_prob": 0,
+      "language_detection_max_tries": 5
+    },
+    "logs": "No language specified, language will be first be detected for each audio file (increases inference time).\nLightning automatically upgraded your loaded checkpoint from v1.5.4 to v2.4.0. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../root/.cache/torch/whisperx-vad-segmentation.bin`\nModel was trained with pyannote.audio 0.0.1, yours is 3.1.1. Bad things might happen unless you revert pyannote.audio to 0.x.\nModel was trained with torch 1.10.0+cu102, yours is 2.1.0+cu121. Bad things might happen unless you revert torch to 1.x.\nDetected language: en (1.00) in first 30s of audio...",
+    "metrics": {
+      "predict_time": 81.244374617,
+      "total_time": 81.268615
+    },
+    "output": {
+      "segments": [
+        {
+          "end": 23.592,
+          "text": " One-third of all murder cases in America remain open. He had told me that if I opened my eyes, he would slit my throat. Each one is called a cold case. The DNA evidence taken from the victim was a match. The linen rapist was at it again. Based on the hit A&E television program, a phone call is placed. One that changes a family's life forever. Cold Case Files, the podcast. If you could see the fire in his eyes, he screamed at me.",
+          "start": 0.009,
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "end": 34.206,
+          "text": " You want it? Get your tape recorder out. Get new episodes of Cold Case Files every Tuesday on Podcast One, Spotify, Apple Podcasts, and anywhere you listen to podcasts.",
+          "start": 23.592,
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "end": 86.186,
+          "text": " Hello everyone and welcome to episode 249 of the True Crime All the Time Unsolved podcast. I'm Mike Ferguson and with me as always is my partner in true crime, Mike Gibson. Give me what's up with you. Hey man, I'm doing good. How about yourself? I am doing fantastic. Excellente.",
+          "start": 57.961,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 94.753,
+          "text": " Or excellente. Either one. Either one works, depending on what part of the world you're from. And what language you're trying to speak. Yeah.",
+          "start": 86.493,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 123.575,
+          "text": " Before we jump into our episode, let's give our shout outs. For Patreon, we had Cindy Tidd. Hey, Tidd. Judy Butler. What's going on, Butler? Amber Lindauer. Lindauer? Jessica Scott. Hey, Jessica. Erica. What's going on, Erica? Johnny Five is a lot. Oh, good to know that, Johnny. About time you told us. Kay Diane Thompson. Hey, Kay. Jody Rae Latronica. What's going on, Latronica? Cecilia Cordray. Hey, Cece. Melio Long. Hey, Melio.",
+          "start": 94.838,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 143.729,
+          "text": " Kalen Baggins. Hey, Baggins. Chris. What's up, Chris? Rebecca. Hey, Rebecca. Tasha Dvorak. Dvorak. Jens Klingschern. Well, you got to cling on to something, Klingschern. James Gao. What's going on, James? And last but not least, Tabitha Bryant. Hey, Tabitha. We go back into the vault, Gibbs.",
+          "start": 123.797,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 165.418,
+          "text": " This week, we selected Renee Crawford. Hey, Renee. Glad to see that. Yeah. We also had some great PayPal donations from Robert Pearson. Hey, Robert. Andy Godwin. Thanks, Andy. And Kelly Baker. What's up, Kelly? So thanks to everyone. Patreon, PayPal. Anytime somebody chooses to support us in that way, it's amazing. It really is.",
+          "start": 144.991,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 183.831,
+          "text": " Gibbs right now we have a big episode out on TCAT. We're talking about Robert Thompson and John Venables who were child killers who abducted and murdered two-year-old James Bulger. Very big case. The big case. I mean, these kids were 10 years old.",
+          "start": 165.418,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 201.647,
+          "text": " making them the youngest convicted killers in Britain. So make sure you check that out. All right, buddy, are you ready to get into this episode of True Crime All the Time Unsolved? I'm ready. Today, we're talking about another really big case. It is. And that's the disappearance of Kyron Horman.",
+          "start": 184.002,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 218.37,
+          "text": " So this case, as well as the James Bolger case, both of those have been really high on the list of the most requested cases that we've had for a number of years. They really have. In June 2010.",
+          "start": 201.647,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 239.411,
+          "text": " Seven-year-old Kyron disappeared from Portland, Oregon. The second grader lived with his father, stepmother, and baby sister. Kyron was last seen by his stepmother after she walked him inside the school to drop off a project for the school science fair. But Kyron never made it to his first class.",
+          "start": 218.37,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 267.432,
+          "text": " The first his family knew of his disappearance was when he failed to arrive home on the school bus. And Gibbs, I know that you've talked about this on a number of podcasts, me kind of looking out the window when my daughters were younger, seeing them get off the bus. And then I would follow them until they made it to the front door. I made sure that they got inside.",
+          "start": 239.411,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 293.302,
+          "text": " If one of my girls failed to get off the bus, I'm thinking about it right now. The feeling that I would have in the pit of my stomach wondering what's going on. And actually, I've had that feeling before. I remember one time my youngest had to stay at school for something after school. Right. And everybody forgot to tell me about it. Oh, man.",
+          "start": 267.432,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 311.254,
+          "text": " I was freaking out. I called my wife on the phone. Obviously she quickly told me what it was. So my anxiety level came down. But in that first instant, those first couple of minutes, I was panic stricken. Sure. Unbearable panic.",
+          "start": 293.507,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 331.527,
+          "text": " The case of the young missing boy resulted in the largest criminal investigation in Oregon history. Every resource available was invested in finding out what happened to Kyron with local and state police, along with the FBI combining their efforts in an attempt to locate him.",
+          "start": 311.493,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 353.933,
+          "text": " Not long after Kyron disappeared, the focus turned to his stepmother. She was the last person said to have seen him, but there was nothing directly linking her to his disappearance. And the investigation lost momentum. As time passed, it surfaced that Kyron's stepmother had allegedly put out a contract.",
+          "start": 331.527,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 379.787,
+          "text": " on Kyron's father in the months before Kyron disappeared. This shocking development wasn't the only thing keeping the story in the headlines. Kyron's mother initiated legal proceedings against his stepmother, claiming that she was responsible for his disappearance. But even this failed to yield any information about Kyron's whereabouts.",
+          "start": 353.933,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 408.183,
+          "text": " Further suspicions were raised, possibly implicating one of Kyron's stepmother's friends in the case. And kids, we're going to get into all of this, right, as we dive deeper into this episode. But Kyron Horman remains missing to this day. Dedicated investigators are committed to finding out what happened to him. His parents hold out hope that he's still alive, despite the lack of significant breakthroughs in recent years.",
+          "start": 379.787,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 436.135,
+          "text": " So big case, a tough case. Yeah. I think always tough when you're, when you're talking about a young child, but I will say this is a case that people really cling to, right? They get fascinated by, you know, some of the details. It has led to a lot of speculation about, you know, just who all is involved in his disappearance. And it continues, right?",
+          "start": 408.763,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 451.834,
+          "text": " To this day, Kyron Horman was born on September 9th, 2002 in Portland to his parents, Kane and Desiree. He was an only child. By the time of Kyron's birth, his parents' relationship had broken down.",
+          "start": 436.135,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 468.626,
+          "text": " and divorce proceedings were already underway. At this time, Kane was already dating someone new, 32-year-old substitute teacher Terry Moulton, who already had an eight-year-old son, James, from her first marriage.",
+          "start": 451.834,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 484.377,
+          "text": " According to the Williamette Week, Kane and Desiree agreed to have a shared custody arrangement for Kyron from the time that he was born. In 2004, Desiree required intensive medical treatment for kidney failure.",
+          "start": 468.626,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 504.633,
+          "text": " And given the fact that she would be traveling to Canada to receive life-saving treatment, the couple agreed that Kane would have sole custody of Kyra. When Desiree returned to the U.S., she continued to be heavily involved in Kyra's life. In April 2007, Kane and Terry got married.",
+          "start": 484.377,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 523.029,
+          "text": " And in December of the following year, the couple had a daughter named Kiera. Kyron had started school at Skyline Elementary in a rural area in Northwest Portland, about two miles from the Horman home. Terry was very involved in Kyron's upbringing.",
+          "start": 504.633,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 544.292,
+          "text": " She volunteered at a school. She took him to swimming lessons with his stepbrother and baby sister. In February, 2010, Terry's son, James moved out of the home and lived with Terry's parents after an argument between mother and son. So there's a lot going on here. There is.",
+          "start": 523.029,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 572.688,
+          "text": " And I do think we need to unpack a little bit of it. Kyron's parents' marriage was essentially over for all intents and purposes by the time he was born. Yeah, exactly. And, you know, his dad was already dating somebody new who he would later marry, Terry. And then, you know, a couple of years after he was born, his mother developed kidney failure.",
+          "start": 544.48,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 601.049,
+          "text": " And so, you know, she's traveling to another country to get this life-saving treatment. And Kyron's father has sole custody, which means that Terry is playing a very big role. A huge role. Not only stepmother, but really along with Kane, you know, kind of raising Kyron. Yeah. Because unfortunately his mom just couldn't be there all that much.",
+          "start": 572.688,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 614.155,
+          "text": " Yeah, you got a lot of family dynamics going on here. Sure. And then, you know, Terry's son from her first marriage moves out, lives with her parents because they can't get along. Yeah.",
+          "start": 601.459,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 634.804,
+          "text": " So I think it's important to kind of paint the picture of the family dynamics, the environment that Kyron grew up in, the players, the actors, everyone involved. On June 4th, 2010, Terry drove Kyron to school. Now, it was noted that he usually took the bus.",
+          "start": 614.258,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 664.155,
+          "text": " But on this day, he had a project with him that he had to drop off at the school science fair before his classes started. And I remember those days. My kids, like I said, normally rode the bus. Yeah. There were those days where they had a big project due. And when I say big, I mean too big to take on the bus. So they needed to be driven. Yeah. To school and dropped off. It just had to be done. I remember-",
+          "start": 634.804,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 677.875,
+          "text": " I had to be driven back in the day because I always took the bus. And I remember I had this science fair project where I had this big sheet of plywood where I decided to do the topography of Asia. Yeah.",
+          "start": 664.155,
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "end": 695.964,
+          "text": " So I got all these bags of sawdust and I had all this glue and I was making all this like topography of how it would lay out. And it looked good until I took the sheet of plywood with all that on it, got into my friend's mom's van.",
+          "start": 678.268,
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "end": 714.804,
+          "text": " And kind of didn't hold it the way I should have held it. And I just kind of watched it all kind of slide. So you weren't that great with the glue. I don't know what impresses me more about that story. The fact that you know the word topography. It was rough. And used it correctly. Yeah. Or that you chose to do Asia. Yeah.",
+          "start": 695.964,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 741.817,
+          "text": " I know. I'm actually impressed by the whole thing. But it was reported that Kyron had been working hard on his exhibit, and it was about the red-eyed tree frog, which Terry helped him take into school just after they arrived around 8 a.m. Kyron was also due to participate in the school's talent show that day, and that was scheduled from 1 to 2.45 p.m.",
+          "start": 715.043,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 768.353,
+          "text": " So Terry and Kyron first went into Kyron's classroom where he dropped off his coat and his backpack before heading to the science fair, which was being held on school grounds. The president of the school PTA later told police that she saw Terry and Kyron together around 8 15 AM standing in front of Kyron's exhibit where Terry took some photographs.",
+          "start": 741.817,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 786.817,
+          "text": " By the way, no one ever took photos of my science project, ever. Well, how could they? It sounds like most of it ended up in your friend's mom's minivan. It did, but still, a photo would have been nice. You're going to take a photo of the floor of the minivan? Yeah. This is what it was going to be. There's Asia.",
+          "start": 768.763,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 801.937,
+          "text": " According to Terry's account, she stayed for another half an hour before leaving at 8.45 a.m. when the bell rang. She watched as Kyron walked down the hall to his classroom and then she went off to run some errands.",
+          "start": 786.817,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 828.131,
+          "text": " Kyron always took the bus home from school and he usually arrived around 3.30 PM. But later that day after school, Terry Kane and Kiera walked to the school bus to meet him. He wasn't there. And I think Gibbs, they were confused and probably extremely worried when the bus driver told them that Kyron hadn't gotten on the bus in the first place.",
+          "start": 801.937,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 855.964,
+          "text": " It was around 3 45 PM that a worried Terry called the school to see where Kyron was. Her anxiety only increased when she was told that he hadn't been in class that day at all and was even marked as absent that morning by his homeroom teacher. That's a huge problem. Huge. Well, especially when you put it in the context of how much time has elapsed.",
+          "start": 828.131,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 875.555,
+          "text": " Right. So obviously now this is not a situation where he just missed the bus. Right. Because we're going all the way from, you know, three 30 PM back to eight 45 AM. Nearly seven hours. Because he never showed up to his first class. Yeah.",
+          "start": 856.442,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 891.578,
+          "text": " After Terry called the school, the school secretary called 911 to report Kyron missing. And obviously, you know, his family was extremely concerned. He was said to be a quiet, introverted kid.",
+          "start": 875.862,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 915.691,
+          "text": " He wasn't outgoing. He wasn't adventurous. So it would be completely out of character for him to have just wandered off from school on his own. And Gibbs, I know this is something you've talked about many times, right? The first 24 hours, the first 48 hours after someone goes missing are extremely critical in any investigation. Yeah.",
+          "start": 891.578,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 943.012,
+          "text": " Well, I mean, I think you want to start your investigation as soon as possible while everybody can still recall what happened that day, what they saw, where they saw it, you know, things like that. Because we know that as time passes, people's memory is not that great. The recall is not that strong. So Kyron was reported missing, but by the time he was Gibbs, it had been almost seven hours. Yeah.",
+          "start": 915.691,
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "end": 968.78,
+          "text": " So, you know, like we just said, right, there are, there is some time that is lost. Following the call reporting his disappearance, two teams of officers arrived at the school and the Horman home just after 4 30 PM. Both locations were searched extensively, including crawl spaces, storage areas, and outbuildings with no sign of Kyron about an hour later.",
+          "start": 943.473,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 994.906,
+          "text": " The school sent out a text message to the families of all Skyline students informing them that Kyron was missing. Search arrangements began to be coordinated between 7 and 7.45 p.m. The sheriff contacted the FBI to alert them of Kyron's disappearance. His photo and physical description was distributed to local media outlets.",
+          "start": 968.78,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1005.486,
+          "text": " So, I mean, the one thing that does jump out at me is within about three hours, the sheriff had already reached out to the FBI. Things are moving forward.",
+          "start": 994.906,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1030.213,
+          "text": " At a good pace. Yeah. Well, this is something that I do like to bring up, right? Do local agencies reach out for help? If you can get the help of the FBI, that's just more power. Absolutely. Take that help. Yeah. So to reach out, you know, within just a few hours really says a lot to me about how seriously they took his disappearance. Yeah.",
+          "start": 1005.64,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1056.169,
+          "text": " Terry told police that after saying goodbye to Kyron around 8 45 AM, she went to Fred Myers to get groceries at two separate locations. She also explained that her daughter Kiera had an earache. So Terry drove her daughter around town from 10 10 to about 11 40 AM in an attempt to help alleviate the pain.",
+          "start": 1030.486,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1084.002,
+          "text": " which she claimed was helped by the constant motion of the vehicle. Yeah, I remember driving my kid around just trying to get them to fall asleep because they had that colic, but I don't know about the earache. Yeah, I mean, that did kind of jump out at me. I'm with you. You know, riding in a vehicle puts me to sleep. Yeah. And it definitely helped put my kids to sleep at certain times when we needed that assistance. I've never heard of...",
+          "start": 1056.169,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1107.722,
+          "text": " The constant motion of a vehicle being good for an earache. Maybe that's something that works. I don't know. Afterward, Terry said she went for a workout at her local gym where she stayed until 1240 p.m. before going home. At 121 p.m., she posted the photos on Facebook that she'd taken of Kyron at the science fair that morning.",
+          "start": 1084.002,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1117.449,
+          "text": " So it sounds like she has a detailed timeline of what occurred that day when Kyron went missing. Fairly detailed. Now it's also her account.",
+          "start": 1108.012,
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "end": 1147.363,
+          "text": " and I'm sure that's something we're going to talk about as we move forward, within two days of Kyron being reported missing, a massive search was underway with personnel arriving from Washington and California. Search parties covered a two-mile radius of the school grounds and the surrounding wooded areas. Police interviewed all staff and 300 students at the school, but no one recalled seeing Kyron after the bell rang at 8.45 a.m.",
+          "start": 1117.534,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1168.063,
+          "text": " One student claimed that they saw Kyron near the school's southern entrance, but this sighting was later retracted by the Multnomah County Sheriff's Office. Terry took to Facebook, letting people know that she'd ordered 1,000 flyers, which volunteers could collect from her home to distribute.",
+          "start": 1147.363,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1192.534,
+          "text": " So we know Terry said she last saw Kyron at 845. Now they've interviewed staff and students, but no one says they saw him. Why is that? Well, I'm assuming it was because he was not there after 845. By the evening of June 6th, the sheriff had escalated the disappearance to a missing endangered child case.",
+          "start": 1168.063,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1221.766,
+          "text": " but stopped short of categorizing it as an abduction. In the first 72 hours, police were inundated with around 1,200 tips. That's a lot. That's a big number. I mean, you and I have done a myriad of cases. I think we talked about John List a couple of weeks ago. They profiled him on America's Most Wanted, and I think they got 200 or 300 tips. Yeah.",
+          "start": 1192.534,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1242.108,
+          "text": " So, I mean, put that into perspective. 1200 is a very large number. Five days after Kyron went missing, his family released a statement to the press. They thanked the public for their support and they appealed for people to continue the search effort by looking over their own properties. Okay.",
+          "start": 1221.766,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1259.821,
+          "text": " All stuff that I think any family would do. You need the public support because you need the public's help in looking for your lost child. Yeah, you want to keep it fresh. You don't want to allow it to get stale. Yes, because you don't want people to lose interest.",
+          "start": 1242.108,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1283.626,
+          "text": " You need them. You do. You need the volunteers. You need the help of the public. Today's episode of True Crime All the Time Unsolved is brought to you by SimpliSafe Home Security. Have you ever wanted to know what's happening at home when you're not there? Well, Gibby and I are big fans of the new wireless outdoor camera from SimpliSafe. It lets you see what's happening outside right from your phone and alerts you when anyone approaches so you",
+          "start": 1259.94,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1310.503,
+          "text": " always know who's there. I've been using SimpliSafe for over four years now. I love everything about my system, the comprehensive sensors, the monitoring, how easy it is to use and install. It's amazing. Now they've outdone themselves with this wireless outdoor camera. I mounted mine so that I can keep an eye on my driveway. It alerts me to anyone walking up to the house. It also helps me keep an eye on my truck, which is sitting in the driveway.",
+          "start": 1283.626,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1335.094,
+          "text": " And it's so easy to set up because it's wireless. And the picture is amazing in the app. SimpliSafe has everything you need to keep your home safe, from entry and motion sensors to indoor and outdoor cameras. You can customize the perfect system for your home in just a few minutes at simplisafe.com slash TCAT. So go today and claim a free indoor security camera plus 20% off with interactive monitoring.",
+          "start": 1310.503,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1363.336,
+          "text": " Go to simplisafe.com slash TCAT, T-C-A-T. Gibbs, you know what? I don't think of myself as someone who is easily excited, but you know what I do get excited about is Hi-Chew candy. I'm not kidding you when I say that when I put a piece of Hi-Chew candy in my mouth, it just makes me happy. And it makes me want to share that happiness with everyone. My favorite flavor continues to be the Pina Colada. What amazes me is how true the flavors are to what it says on the package.",
+          "start": 1335.094,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1386.971,
+          "text": " It has this amazing, unique, chewy texture. It's not a gum. It's not a taffy. It's just a chewy texture that is different from other candies. There's no artificial flavor taste at all. Hi-Chew uses concentrated fruit juices and purees. So with every piece of Hi-Chew, you experience an explosion of flavors. Hi-Chew contains no colors from synthetic sources and it's gluten-free.",
+          "start": 1363.336,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1415.282,
+          "text": " We want you to love Hi-Chew as much as we do. Visit www.hi-chew.com slash win. That's hi-chew.com forward slash win and enter to win an exclusive bucket full of Hi-Chew candy and swag. While you're there, check out how you can become a member of the Hi-Chew Chew Crew, which is an exclusive club where you receive special offers and all the cool things. Go to Hi-Chew.com slash win.",
+          "start": 1386.971,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1440.589,
+          "text": " The search for Kyron continued for 10 days and included Portland Mountain Rescue. It also included the National Guard. But less than two weeks after his disappearance, it was scaled back. CNN reported on law enforcement's announcement that the case was being upgraded from a missing person to a criminal investigation.",
+          "start": 1415.282,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1464.343,
+          "text": " There was an appeal for video footage of traffic on several roads in the Portland area near the vicinity of the school. Police divers also searched the waters off the banks of the Multnomah Channel north of the Sauvy Island Bridge on Sauvy Island, but didn't provide any information as to why they were focusing on this area.",
+          "start": 1440.589,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1486.203,
+          "text": " So there's a couple of things here, Gibbs. Less than two weeks after Kyron disappeared, they scaled back what appeared to be a pretty massive search effort. Again, that type of massive search effort cannot continue indefinitely. It just can't. No, it's too costly.",
+          "start": 1464.343,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1511.254,
+          "text": " Yes, costly from a law enforcement perspective, but also you have a lot of volunteers who can't spend month after month after month. They volunteered their time, but a lot of people can only do that for so long. And then you have resources like mountain rescue, the national guard. Okay. There are other things that they need to be doing.",
+          "start": 1486.203,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1538.831,
+          "text": " Yeah. More searches somewhere else. Sure. So all of this has to be extremely tough on the family. Not only is Kyron missing, but then you're seeing the efforts kind of dwindle as the days go by. That's tough. Now, all of a sudden, it appears as though they're focusing on specific roads, specific bodies of water, but they're not saying why. Yeah.",
+          "start": 1511.254,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1560.538,
+          "text": " Why are you doing that? Why are you over there? Right. Now, maybe they were communicating some of this to the family. I don't know. It's not made public. But if the family didn't know, okay, there's another level of anxiety. Sure is. Does that mean that you received a tip that is leading you to that area? It's got to be something. Right.",
+          "start": 1538.831,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1590.418,
+          "text": " On June 17th, rumors spread across social media that Kyron's body had been found, but law enforcement dismissed this as being inaccurate. The speculation was extremely distressing for the Horman family. Of course. Meanwhile, police distributed questionnaires to the Skyline Elementary community asking for information about whether anyone saw Kyron, Terry, or the white Ford F-250 pickup.",
+          "start": 1560.538,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1613.336,
+          "text": " She drove on June 4th. Well, we know the police want all the information they can get, and they can weed through that and determine what's good information and what's bad information. But at least they have that information, and maybe there's something in that that could help the investigation. On June 21st, NBC News published an open letter from Desiree to her missing son. It read, I would give anything.",
+          "start": 1590.418,
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "end": 1638.08,
+          "text": " to run my fingers through your short hair again. I miss having you to hug anytime I want. Nighttime is always hard for me. I miss you so much and want you back here so that I can protect you from all the horrible things in this world. I just can't believe that you aren't still with us. I pray that you come back to me because I'm afraid that I can't live without you.",
+          "start": 1613.336,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1659.36,
+          "text": " I miss you every second of every day. I would give my life for yours. I just want you back safe. You must come back to us. So, I mean, that's tear jerking. It is Gibbs. There's just no way around it. You can feel her pain, her longing to want her son back. Yeah.",
+          "start": 1638.08,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1687.91,
+          "text": " Desiree and Kane started making media appearances to help get their son's story out there. Like you said, you don't want it to get stale, right? You got to keep it fresh. You got to keep people interested in this story. Otherwise, he could be easily forgotten. A tribute to Kyron was created at Skyline Elementary. And very quickly, the chain link fence known as the Wall of Hope was filled with cards, flowers, balloons, and rubber frogs.",
+          "start": 1659.497,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1709.224,
+          "text": " The wall would later be relocated to a field in front of Tualatin Valley Fire and Rescue Fire Station 368 on Northwest Skyline Boulevard. So Gibbs, I think, you know, by this time, investigators were pretty confident that it wasn't a stranger who had abducted Kyron.",
+          "start": 1688.08,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1728.234,
+          "text": " They had done some investigation. They had checked phone records. They had also checked the movements of everyone in Kyron's family on the day in question. Terry's accounts of her day, her movements on that day conflicted with her cell phone records.",
+          "start": 1709.224,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1743.131,
+          "text": " Desiree had also grown suspicious as Terry had been referring to Kyron in the past tense ever since he'd gone missing. It's alarming. In some point, I get why that would cause suspicion. You know,",
+          "start": 1728.507,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1763.848,
+          "text": " What family member wants to believe that their loved one is gone forever? Right. Well, past tense kind of denotes gone forever. Most family members don't speak like that. Positive. Yes. Yeah. Present tense. He is. She is.",
+          "start": 1743.319,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1792.671,
+          "text": " She will be, he will be. Police interviewed anyone who had regular contact with the family or who had visited their home, including the family's former landscaper, Rudy Sanchez. Rudy told investigators that in January, 2010, around six months before Kyron disappeared, Terry approached him offering him money to kill her husband, King, Kyron's father.",
+          "start": 1763.848,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1811.766,
+          "text": " This is not good. Well, this is, you know, a plot thickener, right? This is where in the daytime. So it would go boom, boom, boom. Right. Because it's a bombshell. Yeah. Right. I mean, if this is true, if you could commit one crime, maybe you can commit another crime.",
+          "start": 1792.671,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1830.52,
+          "text": " Yeah, and definitely offering money to someone to kill someone else is a crime if that actually occurred. I think detectives took it pretty seriously. They felt that it was in Kane's best interest to know when he was told about this shocking piece of information.",
+          "start": 1811.954,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1853.985,
+          "text": " Gibbs, he didn't waste any time. He moved out of the family home on June 26th, taking 18 month old Kiera with him. So it doesn't sound to me like he had a lot of doubts that this probably took place. I think he felt like, yeah, I think she might have tried to set that up. So I'm out of here.",
+          "start": 1830.52,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1879.974,
+          "text": " But investigators wanted to take it further. So they convinced Rudy to agree to wear a wire and confront Terry about the alleged contract killing. The same day Kane moved out, Rudy knocked on Terry's door with law enforcement agents watching from covert vantage points. He asked for the money that she'd promised him, but the operation didn't go as planned.",
+          "start": 1853.985,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1908.387,
+          "text": " Terry called 911 saying someone was at her door demanding $10,000. Now, according to the Charlie project, Terry called 911 twice that day. Once at 5 17 PM, which was classified as a threats call. And then again at 11 39 PM, which was said to be related to child custody. Kane had gone by the time Terry made both calls.",
+          "start": 1879.974,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1937.278,
+          "text": " When police questioned Terry, she outright denied ever making an offer to Rudy to kill her husband. Kane sought a restraining order against Terry and he filed for divorce two days later. So, you know, like I said, this guy didn't mess around. He obviously took all of this very seriously or he was ready to move on anyway. I mean, you can look at it a couple of different ways, but I do think if police come to you",
+          "start": 1908.387,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1951.886,
+          "text": " And they say, you know, we have information that your wife may have put a hit out on you. Okay. Something you might want to take seriously. And obviously he did. I don't think I want to keep hanging around to see how it goes in the future.",
+          "start": 1937.278,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 1977.961,
+          "text": " I don't know if I want to be alone and have a talk and, you know, try to vet it out. I mean, I don't know. The test your food every time you eat it, you know, sleep with one eye open. Don't drink that Gatorade. Yeah. Make sure everything's sealed. In his applications for divorce, Kane stated that he believed Terry was responsible for Kyron's disappearance and that he also feared for his life.",
+          "start": 1952.278,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2001.715,
+          "text": " The divorce was granted. The court ordered Terry to have no contact with Cain, Kyron, Kiera, or her teenage son. And this came on the heels of Cain's allegation that Terry attempted to abduct Kiera from daycare only two days after the restraining order was granted. You can't violate a restraining order.",
+          "start": 1977.961,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2018.217,
+          "text": " According to ABC News, Kane made some other allegations. These included Terry starting an affair with another man only four days after Kane moved out and giving his new address to her new partner.",
+          "start": 2001.715,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2045.64,
+          "text": " When the press learned of Terry's alleged murder-for-hire plot involving Kane, another skeleton fell out of the closet. As reported on the news site Oregon Live, a man identified only as Sean, which is possibly an alias, said that when he was dating Terry in 1990, the two of them were walking in a local park in Portland and stopped at a picnic table to have lunch.",
+          "start": 2018.217,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2065.452,
+          "text": " He said that as they were seated there, a man jumped out of the bushes and pointed a gun at Sean. He said that Terry then yelled, he's here for you, but that the gunman chickened out and ran away without firing a single shot. Well, again, if that is true, that would be a relationship ender.",
+          "start": 2045.64,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2092.619,
+          "text": " I'm assuming that, uh, that's why they, uh, broke it off or that's why he broke it off with her. But because nothing really ever came from the incident, Sean never reported it to the police at the time. Now I'm telling you right now, if a guy comes out of the bushes holding a gun, whether he fires one off or not, I think the least I'm going to do is make a call to the, uh, authority. Yeah. Going to want it on a record.",
+          "start": 2065.862,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2116.988,
+          "text": " Because really, it was only after he learned of the plot Terry was accused of planning against Kane that he came forward with this information. Sean was an inmate in the county jail at the time, and authorities took him to the park to attempt to corroborate his story. It's not really known what the outcome was of these efforts because Terry has never been charged.",
+          "start": 2092.619,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2140.128,
+          "text": " in either alleged murder for hire plot, it is possible that Sean's story didn't hold a whole lot of weight with the police. Well, maybe while he was in prison, maybe he thought if I could, uh, capitalize on, on what's going on. Yeah. I mean, I'm not calling this guy a liar, but I will say, you know, it is kind of unusual that,",
+          "start": 2116.988,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2159.326,
+          "text": " When you think about the timing. Okay. So my pops out of the bushes and is potentially there to murder you and you don't alert the police. You only bring it up after this kind of new revelation comes out about Terry and",
+          "start": 2140.128,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2186.101,
+          "text": " It's somewhat suspicious, but you would have to say things don't look real great. You know, as, as far as Terry is concerned, there, there's a lot of suspicion on her. Sure is at this point in time, there have been quite a few allegations that have been made against her. And then Gibbs, I think things even looked worse when it came out that Terry failed, not one, but two different polygraph tests.",
+          "start": 2159.326,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2196.067,
+          "text": " It was also said that she later walked out on a third test and allegedly commented to a friend that she was done cooperating with law enforcement.",
+          "start": 2186.101,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2224.974,
+          "text": " Yeah, I know that she has said in some interviews that she has a bad ear. She can't really hear well out of it. And that one ear is where the tester would offer the questions. And she says she couldn't really understand what the questions were. So then the tester would sit closer to her to make sure that she could hear him or them better. But her claim is that she just couldn't really understand the questions. So she answered the best that she could.",
+          "start": 2196.374,
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "end": 2245.589,
+          "text": " Now, you would think if you made that note that they would make an accommodation for you and maybe sit on the other side or something like that. But to fail once, twice, and to get frustrated on the third attempt probably because you knew that you were going to fail that one as well?",
+          "start": 2225.401,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2265.333,
+          "text": " Again, it all goes back to it doesn't look good, right? None of this stuff is really actionable. But from the standpoint of law enforcement, and we'll talk about it probably later, but definitely from the standpoint of public opinion, this doesn't make you look good.",
+          "start": 2245.879,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2282.654,
+          "text": " When you kind of combine all of these things, according to the book boy missing by author Rebecca Morris around this same time, it also emerged that the day Kyron disappeared, Terry washed his jacket and backpack. Why would you do that?",
+          "start": 2265.333,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2298.626,
+          "text": " I don't know the reasoning. I can tell you what a lot of people would surmise and it would be that you would do that to possibly get rid of any incriminating evidence or something like that. Yeah.",
+          "start": 2282.91,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2314.241,
+          "text": " A month after Kyron went missing, Desiree, along with Kane and Tony, made an impassioned public plea for Terry to cooperate with the investigation. Instead, Terry moved back to her hometown of Roseburg,",
+          "start": 2298.626,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2341.988,
+          "text": " which allowed Kane and Kiera to move back into the family home. Around this same time, a grand jury subpoenaed some of Terry's close friends, including a woman named Dee Dee Spicer. According to CNN, Desiree and Kane described Dee Dee as having had close contact with Terry and advising Terry in a way they felt was not in Kyron's best interests.",
+          "start": 2314.241,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2350.128,
+          "text": " At one point, law enforcement searched Deedee's condo and vehicle and found her what they called extremely cooperative.",
+          "start": 2341.988,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2374.701,
+          "text": " Apparently Gibbs, she sat through hours and hours of questioning from detectives. According to ABC news, DD was at work on the day in question, preparing for a garden tour at a large nursery on Germantown road in Northwest Portland. Witnesses claim that around 1130 AM DD left work and was absent for 90 minutes.",
+          "start": 2350.52,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2400.572,
+          "text": " This is something that DD has denied. CBS news reported that DD had moved in with Terry to support her and helped her purchase an untraceable cell phone. DD told detective she had no knowledge of Kyron's disappearance and she defended Terry whom she believed was entirely innocent. So we already said that investigators appealed to the public and,",
+          "start": 2374.701,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2420.862,
+          "text": " You know, asking people to come forward if they had seen Kyron, Terry, Terry's pickup. I think after all this came out, they added Didi into the mix. Yeah. Saying, hey, you know, if you saw her between 945 a.m. and 1 p.m. on the day in question, let us know.",
+          "start": 2400.572,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2436.8,
+          "text": " I think they want to have that accountability for that 90 minutes. In late July, according to the Associated Press, a $25,000 reward offer for information leading to the discovery of Chiron was increased to $50,000.",
+          "start": 2421.169,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2459.838,
+          "text": " In early August, 2010, Desiree Kane and Skyline school principal testified to a grand jury. It emerged that witnesses spotted a second unidentified adult in Terry's pickup when Kyron disappeared. So in response, law enforcement asked people to come forward who had seen Terry driving the pickup.",
+          "start": 2436.8,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2486.971,
+          "text": " along Northwest Springfield Road, Northwest Skyline Boulevard, Springville to Newberry Road, or along Old Germantown and Germantown Roads between 1015 and 1130 that day. Two months after Kyron disappeared, law enforcement resumed a ground search focusing on the Old Germantown Road loop close to the home where Dee Dee was gardening the day Kyron was last seen.",
+          "start": 2459.838,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2504.019,
+          "text": " So they really are trying to focus in on what was going on with Terry that day, right? Well, yeah, they are, but they're really bringing Didi into the mix here. Specifically, you know, searching around the area where she was thought to have been that day.",
+          "start": 2486.971,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2530.094,
+          "text": " By this stage of the investigation, more information emerged about Terry's relationships, and it wasn't all good. True Crime All the Time Unsolved is brought to you by Progressive. Progressive helps you get a great rate on car insurance, even if it's not with them. They have this nifty comparison tool that puts rates side by side, so you choose a rate and coverages that work for you. So let's say you're interested in lowering your rate on your car insurance.",
+          "start": 2504.019,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2559.326,
+          "text": " Visit Progressive.com to get a quote with all the coverages you want. You'll see Progressive's rate and then their tool will provide options from other companies all lined up and easy to compare. So that's all you have to do is choose the rate and coverages you like. Progressive gives you options so you can make the best choice for you. You could be looking forward to saving money in the very near future. More money for the latest tech gadget. Maybe it's a pair of those fancy noise canceling headphones. Maybe you want one of those Instapods.",
+          "start": 2530.094,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2578.951,
+          "text": " that my wife really loves. Whatever brings you joy. Get a quote today at Progressive.com. It's one small step you can do today that could make a big impact on your budget tomorrow. Progressive Casualty Insurance Company and Affiliates. Comparison rates not available in all states or situations. Prices vary based on how you buy.",
+          "start": 2559.326,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2593.968,
+          "text": " Terry had distanced herself from the investigation. She was no longer providing a united front with Kane, Desiree and Tony. And I think we all can understand why based on what we've talked about. Right.",
+          "start": 2578.951,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2611.254,
+          "text": " In an exclusive interview with The Oregonian, Kane detailed how Terry suffered postpartum depression following Kiara's birth. He and Terry often clashed over disciplining Kyron, especially in the year leading up to his disappearance.",
+          "start": 2593.968,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2634.462,
+          "text": " He said Terry was relentlessly critical of the school's teaching staff and that she just kind of seemed unhappy overall. Well, if she was a substitute teacher, so obviously she probably had her own thoughts about how they should be teaching. And if she had postpartum, I mean, yeah, maybe she wasn't happy at all. And that postpartum depression can be pretty rough.",
+          "start": 2611.254,
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "end": 2650.162,
+          "text": " In the months that followed dive teams returned to Savi Island twice, but found nothing. Kane was fighting Terry's application to have unsupervised visitations with Kiera. According to the Oregonian Kane told the court,",
+          "start": 2634.462,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2677.193,
+          "text": " that Terry had an alcohol abuse problem, an undiagnosed personality disorder, and was an emotionally disturbed individual focused on her own needs rather than the needs of Kiara or my missing Kyron. Kane believed Kiara wasn't safe with Terry and may have witnessed some unimaginable act of horror when Kyron went missing. Desiree publicly accused Terry of hating Kyron.",
+          "start": 2650.162,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2707.193,
+          "text": " And she also criticized Cain for making what she described as poor choices. Meaning marrying Terry. Yeah. I mean, everybody's against Terry at this point in time, right? It seems like to the point where, you know, she moves out of the home, moves back to her hometown. Yeah. My assumption is Cain probably wouldn't even have argued that he made a poor choice based on his actions and what he was telling the court and stuff. Yeah.",
+          "start": 2677.193,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2728.131,
+          "text": " Yeah, I agree with you. I did. As 2000 came to an end, the total cost of the searches up to that point came in at around $1.4 million. Yeah, that's a lot. And you hate to ever put a price tag on searches, right? But it still has to be accounted for. Money is a factor.",
+          "start": 2707.193,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2750.469,
+          "text": " In a perfect world, it wouldn't be. You'd have unlimited resources to throw at every case, at every missing person's case, abduction, whatever it is. But we live in the real world and we know that that's not how it works. And despite receiving over 4,200 tips...",
+          "start": 2728.131,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2767.176,
+          "text": " neither Kyron nor any evidence relating to his disappearance had been found. That's a lot of tips. 4,200. It is. And we mentioned the grand jury, right? They convened a grand jury. The problem they had was a lack of compelling evidence.",
+          "start": 2750.606,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2795.333,
+          "text": " And so because of that, there were no indictments returned six months into the investigation. In late January, 2011, another unsuccessful search was conducted in rural North and West Portland with canine teams across Multnomah County into Washington and Columbia counties. According to the Oregonian, the search focused on private property.",
+          "start": 2767.483,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2815.691,
+          "text": " mostly logging land along Northwest skyline Boulevard between Rocky point road and Logie trail road and around Dixie mountain for Kane and Desiree. The lack of answers was heartbreaking, but they were assisted by six FBI agents who were working the case together.",
+          "start": 2795.333,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2827.295,
+          "text": " In late March, searches returned to a stretch of Northwest Skyline Road and a gravel road in the Dixie Mountain area. So a lot of searches. A lot of searches.",
+          "start": 2815.691,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2846.305,
+          "text": " We said at the end of 2010, $1.4 million had been spent. I want to talk about the specificity of some of these locations. My assumption is, Gibbs, it came from some of those 4,200 tips. Yeah.",
+          "start": 2827.363,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2865.725,
+          "text": " Because the divers, the search teams, it seems as though they were really focused on very specific roads and or locations. I mean, I don't think you're going to randomly go out and just search spots, right? Well, I think you do sometimes in searches. You can have...",
+          "start": 2846.305,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2893.404,
+          "text": " huge swaths of land and searchers holding hands. And you've seen that on TV, but we're talking about, you know, very specific defined areas, defined areas. And yeah, you can say the wooded areas around the school. Okay. Well that, that makes sense. You're going to want to start there and work your way out. But these 4,200 tips had to have led to some of these detailed searches. Yeah.",
+          "start": 2865.725,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2910.077,
+          "text": " Two years after Kyron vanished, Desiree filed a civil lawsuit against Terry seeking $10 million in damages and claiming that Terry was responsible for Kyron's disappearance. According to the Statesman Journal, two months later,",
+          "start": 2893.404,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2928.78,
+          "text": " Terry's motion to delay the lawsuit was denied by the court, but Terry wasn't the only one facing scrutiny under this lawsuit. Her friend DD refused to answer any questions put to her as part of the proceedings. This included clarifying her whereabouts on the day in question and",
+          "start": 2910.077,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2946.715,
+          "text": " and any contact she may have had with Terry. Instead, Deedee asserted her Fifth Amendment right under the Constitution not to incriminate herself. In late August 2013, KATU-TV reported that Desiree dropped her lawsuit against Terry.",
+          "start": 2928.78,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2966.527,
+          "text": " Kane and Desiree decided to turn to the Dr. Phil show to raise awareness of Kyron's case. Desiree reiterated her belief that Terry was somehow involved in Kyron's disappearance, motivated by a grudge against Kyron for causing a rift in Terry and Kane's marriage.",
+          "start": 2946.715,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 2988.046,
+          "text": " Other allegations against Terry included her sending emails to friends saying she hated Kyron and that she asked Desiree to have full custody. So Gibbs, the hits just keep coming right against Terry. Now, Kane and Desiree, you know, were on the Dr. Phil show. It seems as though every allegation.",
+          "start": 2966.527,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3008.899,
+          "text": " being levied is being levied against Terry, right? All fingers are being pointed at her, but now we have a motivation being brought forward. And this motivation is that Terry was mad that Kyron had caused the strain in her and Kane's marriage. Yeah.",
+          "start": 2988.046,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3028.097,
+          "text": " Because up until this point, my thought was, well, what is the motivation, right? For Terry to have had anything to do with Kyron's disappearance? Well, now at least something has been brought forward, whether it's true or not. We don't know or not. We can't say in December, 2013.",
+          "start": 3008.899,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3057.807,
+          "text": " Kane and Terry's divorce was finalized. Six months later, Kane was awarded full custody of Kiara with Terry having approved supervised visitation. In June, 2015, Kane told reporters that he firmly believed his son will come home. He talked about how every year he purchased new clothes and age appropriate toys for Kyron in preparation for his return. Oh, how difficult would that be?",
+          "start": 3028.097,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3081.51,
+          "text": " Yeah, you can picture a mother, a father, you know, going to the store, picking out clothes, estimating, you know, what their son or daughter would wear. What size would they be now? What toys would they want to play with at this age? I mean, it just absolutely breaks your heart for sure.",
+          "start": 3058.029,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3099.206,
+          "text": " On the fifth anniversary of Kyron's disappearance, a candlelight vigil was held at the Wall of Hope. The following year, Desiree wrote an open letter saying that she hoped the evil person who took Kyron would grow a conscience and do the right thing.",
+          "start": 3081.749,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3127.142,
+          "text": " Now, up until this point, we haven't really talked a lot about Terry opening up to the media. I think that all kind of changed in 2016. That's when Terry really kind of broke her silence. She started doing media interviews, protesting her innocence. She talked about how she had relocated to California to escape all of the public scrutiny. But she had to.",
+          "start": 3099.206,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3150.299,
+          "text": " In January of that year, she spoke with People Magazine, followed by an appearance on the Dr. Phil show in September. During the taping, Terry denied having any involvement in Kyron's disappearance. She alleged he was kidnapped by a man in a white pickup parked at the 7-Eleven on Highway 30.",
+          "start": 3127.398,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3176.783,
+          "text": " According to KGW 8 News, she felt the man was behaving strangely and one of the convenience store employees spoke to him after he'd been pacing back and forth in front of the store for about an hour. During Terry's interview, it was also revealed she'd exchanged explicit text messages and photos with one of Kane's friends only weeks after Kyron's disappearance.",
+          "start": 3150.299,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3205.981,
+          "text": " Okay. She's opening up. Yeah. She's coming out to the media. She's saying, Hey, I didn't have anything to do with it. Desiree and Kane went on Dr. Phil. So she's going to go on Dr. Phil and kind of combat some of the things that, you know, have been thrown at her. The thing that really jumps out to me is this story about the man in the white pickup parked at seven 11. And again,",
+          "start": 3176.92,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3234.906,
+          "text": " you know, her saying that she believes this man kidnapped Kyra. Okay. All right. We're like six years. Why are we talking about it now? Exactly. If that information is real, she'd been interviewed by the authorities. How many different times, right? She'd been polygraphed twice, walked out on a third. Why would that information not have come up in one of those interviews?",
+          "start": 3205.981,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3254.377,
+          "text": " Unless it did and it just was not made public, but I don't know. Following the airing of the Dr. Phil episode, local law enforcement conducted a search near the Wildwood golf course off US 30. Unfortunately, no details were available about exactly what they were looking for.",
+          "start": 3235.06,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3282.534,
+          "text": " According to the Oregonian in December, 2016, Terry's boyfriend accused her of holding a knife to his face and threatening that something would happen to him or his family. That same month, she was due to appear in a California court on charges of stealing her roommate's gun the year before and failing to appear in court. Okay. Again, the hits just keep on coming. Yeah. They seem to never stop.",
+          "start": 3254.377,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3301.715,
+          "text": " So then I think you have to ask the question, is everyone out to get this woman or are her actions causing people to say, Hey, I don't like what you're doing. Yeah. And some of this is criminal and I allege X. Yeah.",
+          "start": 3282.79,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3327.688,
+          "text": " Again, we're talking about a lot of allegations here and I want to stress that word allegations, but at a certain point, don't you have to look and kind of examine to see, you know, what's the common denominator in all of these things, right? Yeah, no, you're right. It's Terry. Yeah. Now, does that mean she had anything to do with Kyron's disappearance? Not necessarily. No.",
+          "start": 3301.715,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3337.176,
+          "text": " But can you make the argument that she's in the middle of a whole bunch of firestorms? Yeah, you can make that argument.",
+          "start": 3328.353,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3362.739,
+          "text": " A lot of chaos going on. Sure. In May, 2017, the FBI erected digital billboards across Oregon, hoping to jog people's memories and prompt them to come forward. Investigators told KGW eight news that despite the age of the case, it was still active, not cold. More searches were conducted two months later.",
+          "start": 3337.261,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3384.838,
+          "text": " Along Northwest Springfield Road and Skyline Boulevard, about five miles from the school. But at least they're not giving up, right? They're constantly searching. They're constantly searching. But these two roads in particular are roads we've already talked about. So something keeps bringing them back to...",
+          "start": 3362.739,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3414.514,
+          "text": " these areas to these roadways. Unfortunately, nothing meaningful came out of these search efforts. The Oregonian published comments by one County judge who said that in his opinion, Terry was quote a prime suspect. They also said that Desiree was organizing her own private searches. So when a newspaper reports that a County judge, for whatever reason,",
+          "start": 3384.838,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3435.708,
+          "text": " is opining that you're the prime suspect in this case yeah that's pretty big as a judge i would think you're extremely careful with your words oh you didn't yeah you'd have to be right from a legal standpoint so you know to make that statement",
+          "start": 3414.514,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3455.384,
+          "text": " Now, granted, it's an opinion, so it does seem like a big deal. On the eighth anniversary of Kyron's disappearance, KGW8 News reported on a Facebook post Desiree had made saying, Stay tuned. Something big is coming. I promise you.",
+          "start": 3435.947,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3480.452,
+          "text": " Terry isn't going to get away with staying silent about where Kyron is and not have to answer for it. So here's the other thing, right? To me is that, you know, all these people, it's not as though they're backing down. Desiree in particular has been extremely vocal in saying that she believes Terry was involved.",
+          "start": 3455.384,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3507.79,
+          "text": " in her son's disappearance. I think Kane has said that too. And like I mentioned, so many people pointing the finger at her. Kyron's case is an ongoing active investigation. And we've talked about it, right? There have been a lot of attention directed at certain individuals, Terry to a lesser extent, DD. Yeah. The problem is, as far as we know, there's no physical evidence that,",
+          "start": 3480.452,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3530.845,
+          "text": " or at least not to the point where detectives have been able to charge anyone. The Multnomah County Sheriff told KOIN 6 News that even if Kyron isn't found, it doesn't mean that an arrest can't be made. Well, that's true, right? We've seen that in many cases before. Sure. Is it harder? Yeah, I think it is.",
+          "start": 3508.148,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3545.913,
+          "text": " Well, it's not harder to arrest somebody. You can arrest somebody, but to get a conviction, I do think it's harder, but it's possible to put the evidence together. I think for us, we need to look at some possible scenarios.",
+          "start": 3530.845,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3572.056,
+          "text": " based on what we know. We need to consider whether Kyron's disappearance somehow resulted from an accident. I think one thing that people point to that kind of, you know, moves away from the accident theory is that his body hasn't been found. And we talked about it, right? He wasn't an adventurous kid, right? It's very unlikely that he just wandered off and,",
+          "start": 3545.913,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3583.746,
+          "text": " The thought is that a child who suffered some type of fatal accident most likely would be found relatively quickly. And we know they searched the area.",
+          "start": 3572.056,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3602.602,
+          "text": " Yeah. Now, on the other hand, some people have asked the question, what if Kyron suffered an accident while under the supervision of an adult and that adult needed to cover it up? That could possibly explain why his body has not been recovered.",
+          "start": 3583.916,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3622.21,
+          "text": " And we've seen cases like that in the past. We have. And I think you have to talk about the stranger abduction, right? Now you do have to talk about it in the context of no one seeing Kyron leave, nobody seeing anybody else with him in 2010, right?",
+          "start": 3603.029,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3641.442,
+          "text": " The school wasn't real strict, apparently about enforcing the use of visitor badges. It was also reported that there were nine unlocked doors at the school, which is a lot. It's a lot. It also allowed pretty much anyone off the street to access the building unnoticed.",
+          "start": 3622.21,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3671.442,
+          "text": " You have the allegation made by Terry that Kyron was abducted by this guy driving the white pickup. But again, as we've talked about with Terry, there's no evidence to back that up either. Then you have Terry's friend Didi and the conflicting accounts of her movements on the morning Kyron went missing. Didi claims she never left her gardening job, but others have said that she was missing for about 90 minutes.",
+          "start": 3641.442,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3690.265,
+          "text": " The women have had no contact since 2010. Terry told Dr. Phil that this was on the recommendation of both of their attorneys. But here's the thing, Gibbs, there's really nothing to suggest Deedee was involved, at least from an evidentiary standpoint.",
+          "start": 3671.442,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3719.07,
+          "text": " Well, if you got two women who are close friends and both of them have publicly stated that neither of them were involved, then it's odd. There would be no further contact given the circumstances. Yeah, no, I understand what you're saying. Obviously, the police looked at both and maybe still are looking at both of these women. They both lawyered up and their attorneys recommended that they have no contact. Okay. Not sure why. We don't have that information. Right.",
+          "start": 3690.759,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3744.172,
+          "text": " Maybe they were playing it safe or I don't know. And I'm big on doing what your attorney says. It just seems like, you know, you didn't have anything wrong to do. Live your life and your friends are your friends. But I don't know. Neither one of us have ever been under scrutiny, a disappearance investigation. So maybe we would act a little differently. Probably. You and I would have to distance ourselves. I don't know. Yeah.",
+          "start": 3719.701,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3762.824,
+          "text": " I think the bottom line is we know law enforcement is most closely focused on Terry. I don't think there's any doubt about that. Terry wasn't a new addition to the family. She'd helped raise Kyron since he was born. We talked about some of Kane's criticisms of Terry's parenting and",
+          "start": 3744.172,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3781.715,
+          "text": " her alcohol dependency, the racy text messages and photos that she sent to his friend following Kyron's disappearance. That does seem like extremely odd behavior, right? In the context of your stepson has just gone missing, right?",
+          "start": 3762.824,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3803.643,
+          "text": " And okay, you're having difficulties in your marriage maybe, but you're still in search mode. Right. You're not in let's start sexting and send racy pics mode. Clearly bad judgment. At the very least. Right. And you could view it simply as that.",
+          "start": 3781.783,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3813.046,
+          "text": " But I don't think people do. I think people look at all of these things. They put all of them together and say, something's not right.",
+          "start": 3803.831,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3838.404,
+          "text": " Now, given all that, authorities haven't formally named anyone as a suspect or really even a person of interest. Kane has alleged Terry is responsible for Kyron's disappearance as maybe a way to get back at him somehow. But Kane also has stated that he thinks Terry may have had help from someone else, though he's not sure who. Now, we've talked about Desiree.",
+          "start": 3813.166,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3859.224,
+          "text": " She's been unwavering pretty much from Jump Street in her belief that Terry is involved. But I definitely want to stress this. We have all these things that may indicate Terry has made poor choices, lapses in judgment, and there are a ton of people.",
+          "start": 3838.404,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3876.954,
+          "text": " who believe she most likely had something to do with Kyron's disappearance. The problem is the case against her is circumstantial at best. Oh, for sure. Yeah. Because if it wasn't, they would have charged her. They would have. If they had anything, they would have charged her.",
+          "start": 3859.224,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3902.398,
+          "text": " One of the legacies that came out of Kyron's case is an overhaul of school security measures throughout Portland. These days, any visitors to Skyline Elementary can only access the building through one unlocked door at the front. They're required to sign in. All elementary schools throughout Portland have indoor and outdoor surveillance cameras installed. And I think this is",
+          "start": 3876.954,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3922.295,
+          "text": " starting to become, or maybe now by this point has become the norm. I know when my kids were in like middle school, it was like Fort Knox. I mean, you had to be buzzed in to one door and then be let in a second door. It's like a, like the bank. Yeah.",
+          "start": 3902.398,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3935.282,
+          "text": " When they're in, you know, looking out for bank robber mode. Right. Yeah. But to me, those are good things, right? We should not be allowing people to just roam freely.",
+          "start": 3922.449,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3964.053,
+          "text": " the halls of the schools where our children attend. It should be a safe haven. But it's like everything else we talk about Gibbs, right? It takes something horrible. Yeah. Sometimes to put the thought in someone's head that we need to do it. Right. It's time for change. Yes. And I mean, it's sad, but it's just kind of the way that it works. Yeah. If we could be proactive all the time, that would be great, but you can't think of everything.",
+          "start": 3935.623,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3984.036,
+          "text": " prevent all bad things from happening. And even with all the security measures in place, it's not going to stop every bad thing from happening. In June, 2019, Desiree told the Oregonian that police had narrowed down their search area to about a hundred acres.",
+          "start": 3964.053,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 3994.138,
+          "text": " So that's roughly 76 football fields. That's a lot of area to cover still. It is. But she didn't reveal or couldn't reveal...",
+          "start": 3984.036,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 4016.032,
+          "text": " where they were searching specifically on the 11th anniversary of Kyron's disappearance in 2021, Desiree posted a message to social media criticizing Multnomah County law enforcement. She said, things are too quiet. This is not acceptable and I will be taking it to their doorstep.",
+          "start": 3994.48,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 4036.459,
+          "text": " Desiree continues to organize her own private searches for Kyron. Terry has since remarried. So, you know, she's moved on with her life, but I imagine that she still has this, all of this stuff hanging over her head. Yeah. Cause I'm telling you, when you search this case online,",
+          "start": 4016.032,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 4058.985,
+          "text": " The vast majority of people who comment or who have really looked into this case believe that she either had something to do with Kyron's disappearance or she knows what really happened. And I think there's no way around that. Now, whether she did or not, I don't know.",
+          "start": 4036.459,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 4066.971,
+          "text": " But I'm saying that's what most people believe. The assumption is she knows something. Yes. And or did something. Exactly.",
+          "start": 4058.985,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 4092.841,
+          "text": " If you have any information on the disappearance of Kyron, you can contact the Multnomah County Sheriff's Office in Oregon at 503-823-3333 or the local tip line at 503-261-2847. You can also submit an anonymous tip online at tips.fbi.gov.",
+          "start": 4067.261,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 4112.398,
+          "text": " So Gibbs, that's it for our episode on Kyron Horman. It's a case, you know, like you said in the beginning, it's very well known. Yeah. It's a big case. It's a case that I knew we would cover on unsolved at some point. It's also a very perplexing case. Yeah.",
+          "start": 4092.841,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 4140.981,
+          "text": " in that really most of everything that is known kind of points in one direction. I think you'd have to say that, at least from the outside looking in. Sure, yeah. Circumstantially points to one direction, but where's that smoking gun? Where's that piece of evidence that a prosecutor could present to a jury?",
+          "start": 4112.398,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 4154.582,
+          "text": " it hasn't been uncovered and will it be uncovered? I don't know, but I think at the stage it's at now, they need more pieces to the puzzle to move forward.",
+          "start": 4140.981,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 4183.899,
+          "text": " Yeah, I agree with you. I don't think there's any disputing that. Now, I did find it interesting that Desiree made that post that said something big is coming. I have no idea what she was referring to. Now, it's been a while ago. A couple years. So either she thought something was coming and it didn't materialize or they're still working on it. Sometimes they do, right? Sometimes it takes a while to be able to bring something forward.",
+          "start": 4154.804,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 4204.565,
+          "text": " Yeah, but this is a case that you would love to see solved. Sure. If Terry was involved, then she deserves to face justice. If she was not involved in any way, let's say it was a stranger. Sure. I'm just throwing out things. Then her name would be cleared. She'd be free to live her life. Yeah.",
+          "start": 4183.899,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 4226.271,
+          "text": " Didi would most likely, you know, feel freer. She's got a cloud a little bit hanging over her head based on people's suspicions and things like that. I know with so many people keeping an eye on this, so many tips that have come in, there is a great fascination with this case. And so many people are,",
+          "start": 4204.565,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 4253.2,
+          "text": " who really, really want to, you know, see the case solved or Kyron found or just know what happened. And maybe one day we'll, we'll get that. Let's hope so. We've got some voicemails. You want to check those out? Yes. Hi, Mike and Debbie. This is Susan from Illinois. I was listening to Candace. I think it's Hiltz is the last name on Unfold. And I was,",
+          "start": 4226.271,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 4275.503,
+          "text": " You mentioned how can they tell when two bullets enter the body at the same time. I can't remember if you guys said they were two bullets from different guns or the same gun. A lot of times, I transcribe autopsy reports for a company, and we've had something called tandem bullet homicides happen.",
+          "start": 4253.541,
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "end": 4301.237,
+          "text": " And I don't know if maybe that's what they're talking about or not, but I thought I would just mention that. I'm going to actually look it up myself when I get home. Interesting story. Super sad. And it really stinks on all of these unsolved. I have a hard time actually listening to them because I'm one of those people that likes to hear the ending, to have it be finalized. I can't imagine what it's like to be those family members.",
+          "start": 4275.503,
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "end": 4318.865,
+          "text": " Anyhow, thanks for what you guys do. It's absolutely awesome. I've listened to you for years now, and I'm all caught up. I wait for it every week, and I also listen to terminology. So hi to more of both of you. Thanks, and stay safe and keep your own time ticking.",
+          "start": 4301.869,
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "end": 4340.128,
+          "text": " Awesome. Thank you for calling in. Yeah, that one still has me baffled. I get if you, and I don't remember if it was the same bullet or two different bullets. To me, that part wouldn't matter. How would they know that they were fired simultaneously? Right. How do they know that they entered the body exactly the same time?",
+          "start": 4319.821,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 4363.78,
+          "text": " Right. That part, I still can't wrap my head around because it was written that way. And, you know, I'm going to have to look up this tandem thing that she was talking about. Maybe there is some explanation. Hey guys, I'm calling from Los Angeles. I just want to let you guys know how great your podcast is. I am on episode 118 right now. So I just",
+          "start": 4340.128,
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "end": 4393.968,
+          "text": " barely started listening to you guys, but I'm so excited that I have so many more episodes to listen to that I can binge to. Also, I'm really liking these last two episodes where there is more storytelling from Gibby. I really love you guys' voice. I've listened to other podcasts where the voice is just not bringing me into the podcast. It's not very entertaining. I just",
+          "start": 4364.07,
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "end": 4412.449,
+          "text": " Click the next button, basically. But I really like listening to you guys. You guys' voices are great. Your storytelling is great. And just keep doing what you're doing. And every time, as time keeps coming, you guys are getting better and better, and I love it. Thank you so much. You guys have a great one. Bye-bye.",
+          "start": 4394.48,
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "end": 4440.555,
+          "text": " No, thank you for the voicemail. We're always trying to get more storytelling out of Gibby. Well, you know, I did go to storytelling school and voice school when I was young. Storytelling you? No, they called that kindergarten. Oh, yeah. Where they told you stories. Well, that's right. This is where I'm trying to get you to tell the story. Oh, okay. Yeah, yeah. You're mixing up the milks and the storytelling. Yeah, I am. That's good. The great part was you graduated.",
+          "start": 4413.746,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 4465.657,
+          "text": " Eventually. From kindergarten. Eventually. It was a Billy Madison type situation, but... Again, that's why I say eventually. Eventually. Hey, guys. I was just curious about something. I know y'all grew up in the same area. And I know Gibby is, like, a little bit older than you. But y'all have completely different accents. I'm just wondering if, like...",
+          "start": 4440.64,
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "end": 4495.111,
+          "text": " The different towns y'all grew up in aren't that much different or what? Because it sounds like to me that Mike, Fergie, grew up like prim and proper, and then Gibby grew up like a country boy. Like maybe he was raised on a farm in Ohio. But anyway, I was just wondering about the difference in y'all's accents.",
+          "start": 4465.998,
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "end": 4515.828,
+          "text": " Love you both. Team Mike. Talk to you later. Well, I guess I'm talking to y'all, but you're not talking to me. But I feel like your buddies are fun. Bye. Well, we're talking to you. See, we are buddies. So this one I thought was a great voicemail. We actually get this a lot. We do.",
+          "start": 4495.725,
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "end": 4542.671,
+          "text": " And it's funny because the place where I grew up was very small. Yeah. It was actually a village. It didn't even become a town until I don't remember how old I was. You said a few people in that village. Yeah. Village people. Village people. It was very rural. A lot of my friends raised hogs and chickens and showed them off in 4-H and stuff like that. So we're actually the opposite. Yeah.",
+          "start": 4516.34,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 4568.097,
+          "text": " We really are. As far as how we were raised. Yeah. Now, how we got our accents, I don't know. You know. Because we were raised, what, 20, 25 minutes away from each other? I was raised more north. And me a little farther south. Yeah. So. Figure that out. I don't know. Maybe it comes down to my dad's side of his family, since they were all born and raised and, you know.",
+          "start": 4542.671,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 4597.363,
+          "text": " Southern Kentucky. But half of my family is from a holler in Manchester, Kentucky. And the other half is from La Follette, Tennessee. So I don't know how that works more than me for sure. I don't know how that works, but I thought that was interesting. I know a lot of people find it that way. Hi there, Mike and Gibby. Uh, my name is Kirsten Johnson and I'm from Palm beach, Florida. And I wanted to say that I really, really love your podcast.",
+          "start": 4568.097,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 4627.108,
+          "text": " They're so much fun, and I listen to them pretty much every day. I go for a walk because I don't sleep much, and so I go for a walk at night and listen to multiple episodes. And I wanted to give you, Mike, a little bit of a hard time since Bibi's always getting teased for saying wrong words, but...",
+          "start": 4597.79,
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "end": 4652.568,
+          "text": " And then you finally mentioned it in episode 51, and I've been thinking about it for a while. But the word interesting. Mike, you say interesting every time you say it. Love you guys. It's so fun listening to all the podcasts. And keep up the good work and keep your own time ticking.",
+          "start": 4627.619,
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "end": 4669.718,
+          "text": " So it's funny because we had a voicemail on TCAT this week that was somewhat similar. So obviously she's still early on in the episodes. And I did used to get called out a lot for saying interesting. You did. Without the T.",
+          "start": 4653.063,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 4698.933,
+          "text": " I feel like lately I've switched to interesting. I'm saying that. Yeah. The one thing I can't say is how you're actually supposed to say it, which is interesting. I don't like it that way. So I change it. You do. It's fascinating. And that's how I roll. You roll many ways. Like a rolling stone. Yeah. All right, buddy. That is it for another episode of true crime all the time unsolved. So for Mike and Gabby, stay safe and keep your own time ticking.",
+          "start": 4669.718,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "end": 4723.08,
+          "text": " Thank you.",
+          "start": 4721.732
+        }
+      ],
+      "detected_language": "en"
+    },
+    "started_at": "2024-12-04T14:41:07.939240Z",
+    "status": "succeeded",
+    "urls": {
+      "get": "https://api.replicate.com/v1/predictions/0hmf9vrz9drj40ckj8f836ch48",
+      "cancel": "https://api.replicate.com/v1/predictions/0hmf9vrz9drj40ckj8f836ch48/cancel"
+    },
+    "version": "84d2ad2d6194fe98a17d2b60bef1c7f910c46b2f6fd38996ca457afd9c8abfcb"
+  }
