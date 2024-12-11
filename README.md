@@ -4,6 +4,8 @@ Un outil d'investigation assistée par IA pour l'analyse de cold cases, démontr
 
 ![Démonstration de l'outil](demonstration.gif)
 
+https://atlas.nomic.ai/data/encyclopedia-uca/kyron-horman-multimodal-0f9be3a4
+
 ## 🎯 Objectif
 
 Ce projet vise à démontrer comment l'IA peut assister les enquêteurs dans l'analyse de cold cases en :
