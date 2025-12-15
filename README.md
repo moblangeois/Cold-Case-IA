@@ -178,6 +178,6 @@ Ce projet est une **démonstration technique**. L'utilisation de l'IA dans le co
 - L'IA peut faire des erreurs - vérifiez toujours les informations
 - En espérant que ce type de technologie puisse aider à résoudre ce cas et d'autres similaires
 
-## 📄 Licence
+## Licence
 
 MIT License
