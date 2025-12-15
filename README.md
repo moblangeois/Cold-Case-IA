@@ -4,17 +4,17 @@ Un outil d'investigation assistée par IA pour l'analyse de cold cases, démontr
 
 ![Démonstration de l'outil](demonstration.gif)
 
-## 🌟 Nouvelle Application Web avec Claude Sonnet 4.5
+## Nouvelle Application Web avec Claude Sonnet 4.5
 
-**🚀 [QUICKSTART - Lancez l'application en 5 minutes](./QUICKSTART.md)**
+**[QUICKSTART - Lancez l'application en 5 minutes](./QUICKSTART.md)**
 
 Cette repository contient maintenant une application web complète moderne :
 
-- 💬 **Chat intelligent** avec Claude Sonnet 4.5
-- 🔍 **Recherche sémantique** dans tous les documents
-- 📚 **Exploration interactive** des preuves et témoignages
-- 🎨 **Interface moderne** responsive avec Next.js et TailwindCSS
-- 🤖 **Système RAG** pour des réponses précises basées sur les sources
+- **Chat intelligent** avec Claude Sonnet 4.5
+- **Recherche sémantique** dans tous les documents
+- **Exploration interactive** des preuves et témoignages
+- **Interface moderne** responsive avec Next.js et TailwindCSS
+- **Système RAG** pour des réponses précises basées sur les sources
 
 ### Démarrage Rapide
 
@@ -33,14 +33,14 @@ nano .env
 
 **Accès :** http://localhost:3000
 
-📖 **Documentation :**
-- [Guide de démarrage rapide](./QUICKSTART.md) ⚡
-- [Documentation complète](./APP_README.md) 📚
-- [Guide de déploiement](./DEPLOYMENT.md) 🌐
+**Documentation :**
+- [Guide de démarrage rapide](./QUICKSTART.md)
+- [Documentation complète](./APP_README.md)
+- [Guide de déploiement](./DEPLOYMENT.md)
 
 ---
 
-## 🎯 Objectif Original
+## Objectif Original
 
 Ce projet vise à démontrer comment l'IA peut assister les enquêteurs dans l'analyse de cold cases en :
 - Centralisant et structurant les informations disponibles
@@ -49,7 +49,7 @@ Ce projet vise à démontrer comment l'IA peut assister les enquêteurs dans l'a
 
 **Carte sémantique Nomic Atlas :** https://atlas.nomic.ai/data/encyclopedia-uca/kyron-horman-multimodal-0f9be3a4
 
-## 🛠️ Fonctionnalités
+## Fonctionnalités
 
 ### Application Web (Nouvelle)
 - **Chat avec Claude Sonnet 4.5** : Interface conversationnelle pour interroger le cas
@@ -64,7 +64,7 @@ Ce projet vise à démontrer comment l'IA peut assister les enquêteurs dans l'a
 - **Visualisation interactive** : Carte sémantique générée via Nomic Atlas
 - **Analyse thématique** : Extraction automatique des topics des transcriptions de podcasts
 
-## 📦 Structure du projet
+## Structure du projet
 
 ```
 Cold-Case-IA/
@@ -98,12 +98,12 @@ Cold-Case-IA/
 ├── scraping_*.py          # [Original] Scripts de collecte
 │
 ├── docker-compose.yml     # Orchestration des services
-├── QUICKSTART.md          # Guide de démarrage rapide ⚡
+├── QUICKSTART.md          # Guide de démarrage rapide
 ├── APP_README.md          # Documentation complète
 └── DEPLOYMENT.md          # Guide de déploiement production
 ```
 
-## 🚀 Installation et Utilisation
+## Installation et Utilisation
 
 ### Application Web (Recommandé)
 
@@ -148,7 +148,7 @@ python topic_modeling.py
 python create_atlas.py
 ```
 
-## 🎯 Technologies
+## Technologies
 
 ### Stack Moderne
 - **Backend** : FastAPI, Python 3.11, Anthropic Claude API
@@ -161,16 +161,16 @@ python create_atlas.py
 - **Local** : Docker Compose
 - **Production** : coldcase.citadelle.work (voir [DEPLOYMENT.md](./DEPLOYMENT.md))
 
-## ⚠️ Notes importantes
+## Notes importantes
 
 ### Utilisation Responsable
 Ce projet est une **démonstration technique**. L'utilisation de l'IA dans le contexte d'enquêtes criminelles soulève des questions éthiques et légales importantes :
 
-- ✅ Usage éducatif et recherche
-- ✅ Démonstration de capacités de l'IA
-- ✅ Analyse de sources publiques
-- ❌ Ne remplace pas une enquête officielle
-- ❌ Consultez toujours les autorités compétentes
+- Usage éducatif et recherche
+- Démonstration de capacités de l'IA
+- Analyse de sources publiques
+- Ne remplace pas une enquête officielle
+- Consultez toujours les autorités compétentes
 
 ### Vie Privée et Respect
 - Toutes les informations proviennent de sources publiques
